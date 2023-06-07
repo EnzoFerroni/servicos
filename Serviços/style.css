@@ -1,0 +1,230 @@
+body {
+  background-image: linear-gradient(
+    165deg,
+    #d7eafd,
+    #c5dff8,
+    #bcd8f5,
+    #b8d7f5c7,
+    #b4e6fa,
+    #a2dff7,
+    #90cfec,
+    #74b5d3,
+    #4a8db7,
+    #4a8db7,
+    #3b7197
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-repeat: no-repeat;
+}
+header {
+  background-color: white;
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+.divnav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+}
+.botaoentreaqui {
+  background: #cae5ff;
+  border-radius: 30px;
+  border: 1px solid #000;
+  height: 50px;
+  width: 120px;
+  font: bold 15px arial, sans-serif;
+}
+header a {
+  text-decoration: none;
+  color: #000;
+}
+main {
+  background-image: url(images/fundoconsultas.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: 100%;
+  height: 200px;
+}
+.conteudosite {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em;
+}
+.botaoconsulta {
+  background: #ddd;
+  border: 1px solid black;
+  color: #b3aca9;
+  font-size: 40px;
+  cursor: pointer;
+}
+.botaoconsulta:hover {
+  background-color: #515e6f;
+}
+.botaoconsulta:active {
+  background-color: #515e6f;
+}
+.botaoexames {
+  background: #ddd;
+  border: 1px solid black;
+  color: #b3aca9;
+  font-size: 40px;
+  cursor: pointer;
+}
+.botaoexames:hover {
+  background-color: #515e6f;
+}
+.botaocirurgias {
+  background: #ddd;
+  border: 1px solid black;
+  color: #b3aca9;
+  font-size: 40px;
+  cursor: pointer;
+}
+.botaocirurgias:hover {
+  background-color: #515e6f;
+}
+.botaoprocedimentos {
+  background: #ddd;
+  border: 1px solid black;
+  color: #b3aca9;
+  font-size: 40px;
+  cursor: pointer;
+}
+.botaoprocedimentos:hover {
+  background-color: #515e6f;
+}
+footer {
+  background-color: white;
+  margin-top: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footerlogo {
+  list-style-type: none;
+}
+
+.servpv {
+  display: flex;
+  flex-direction: column;
+  color: #3b7197;
+  font-size: 25px;
+  position: relative;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footerpv {
+  height: 250px;
+}
+
+.servifotter {
+  position: relative;
+  right: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.cons {
+  font-size: 25px;
+}
+
+.exa {
+  font-size: 25px;
+}
+
+.cir {
+  font-size: 25px;
+}
+
+.pro {
+  font-size: 25px;
+}
+
+.endereço {
+  list-style: url(images/iconemaps.png);
+  text-align: center;
+  color: #3b7197;
+}
+
+.avsapo {
+  position: relative;
+  bottom: 15px;
+}
+
+.wpp {
+  list-style: url(images/iconezap.png);
+  color: #3f3f3f;
+  font-size: 20px;
+  color: #3b7197;
+  position: relative;
+}
+
+.num {
+  position: relative;
+  bottom: 8px;
+}
+
+.fim {
+  text-align: center;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.marcar {
+  position: relative;
+  left: 67px;
+  font-size: 20px;
+  height: 100px;
+  width: 200px;
+  background-color: #d7eafd;
+  color: #3b7197;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+#conteudo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#conteudo li {
+  color: #857a7a;
+  font-size: 24px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+}
+.divimagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
