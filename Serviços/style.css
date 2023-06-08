@@ -26,6 +26,21 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
+}
+.botoes {
+  /*botoes da header */
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.botoes:hover,
+.selected {
+  color: black;
+  font-weight: 900;
+}
+#selecionado{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  color: black;
+  font-weight: 900;
 }
 .logo {
   width: 80px;
@@ -37,6 +52,11 @@ header {
   height: 50px;
   width: 120px;
   font: bold 15px arial, sans-serif;
+}
+.botaoentreaqui:hover {
+  /*dar um zoom assim que o cursor passar do cima do botão (ENTRE AQUI)*/
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 header a {
   text-decoration: none;
